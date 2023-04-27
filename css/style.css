@@ -1,0 +1,465 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section,
+div {
+
+    display: block;
+
+}
+
+
+#wrapper {
+    width: 100%;
+    height: 0px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/************LAYOUT NO. 1*************/
+
+.header-layout1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 123px;
+    background: #F2E9E9;
+}
+
+.header-nav-layout1 {
+    display: flex;
+    list-style-type: none;
+}
+
+.a-tag-l1:hover {
+    color: aqua;
+}
+
+.header-nav-layout1 li {
+    margin: 0 18px;
+}
+
+.header-nav-layout1 a {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.main-container1 {
+    display: flex;
+    margin-top: 91px;
+    margin-bottom: 145px;
+    width: 100%;
+    justify-content: center;
+}
+
+.main-container1 .text {
+    margin-top: 176px;
+}
+
+.main-container1 h1 {
+    width: 243px;
+    height: 97px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.main-container1 p {
+    width: 374px;
+    height: 33px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    justify-self: center;
+    color: #000000;
+}
+
+.main-container1 .mix {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    width: 437px;
+    height: 624px;
+
+}
+
+.main-container1 .mix section {
+    background: #EBEF18;
+}
+
+.main-container1 .col1 {
+    margin-top: 44px;
+}
+
+.main-container1 .rectangle-one {
+    width: 75px;
+    height: 23px;
+    margin-bottom: 8px;
+}
+
+.main-container1 .rectangle-two {
+    width: 136px;
+    height: 46px;
+    margin-bottom: 11px;
+}
+
+.main-container1 .rectangle-three {
+    width: 134px;
+    height: 404px;
+    margin-bottom: 11px;
+}
+
+.main-container1 .rectangle-four {
+    width: 88px;
+    height: 28px;
+    margin-bottom: 7px;
+}
+
+.main-container1 .mix div .div-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container1 .rectangle-five {
+    width: 25px;
+    height: 26px;
+    margin-bottom: 7px;
+}
+
+.main-container1 .rectangle-six {
+    width: 25px;
+    height: 26px;
+    margin-left: 7px;
+}
+
+.main-container1 .col2 {
+    margin-top: 44px;
+}
+
+.main-container1 .rectangle-seven {
+    width: 246px;
+    height: 352px;
+    margin-left: 15px;
+}
+
+.main-container1 .rectangle-eight {
+    margin-top: 16px;
+    width: 123px;
+    height: 212px;
+    margin-left: 15px;
+}
+
+.main-container1 .mix div .div-col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-container1 .rectangle-nine {
+    width: 55px;
+    height: 105px;
+    margin-left: 14px;
+    margin-top: 16px;
+}
+
+.main-container1 .rectangle-ten {
+    width: 110px;
+    height: 58px;
+    margin-left: 14px;
+    margin-top: 7px;
+}
+
+.main-container1 .col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: -14px;
+}
+
+
+.main-container1 .rectangle-eleven {
+    width: 28px;
+    height: 55px;
+    margin-bottom: 11px;
+}
+
+.main-container1 .rectangle-twelve {
+    width: 28px;
+    height: 55px;
+    margin-bottom: 11px;
+}
+
+.main-container1 .rectangle-thirteen {
+    width: 28px;
+    height: 55px;
+    margin-bottom: 11px;
+}
+
+.main-container1 .rectangle-fourteen {
+    width: 28px;
+    height: 198px;
+    margin-bottom: 16px;
+}
+
+.main-container1 .rectangle-fifteen {
+    width: 55px;
+    height: 105px;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 41px;
+    background: #000000;
+}
+
+
+/************LAYOUT NO. 2*************/
+
+.a-tag-l2:hover {
+    color: aqua;
+}
+
+.main-container2 {
+    overflow: hidden;
+    height: 1860px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-container2 .squares {
+    display: flex;
+    justify-content: center;
+    margin-top: 119px;
+    margin-right: 151px;
+    margin-left: 151px;
+}
+
+.main-container2 .squares .col-left {
+    margin-right: 55px;
+}
+
+.main-container2 .squares .col-right {
+    margin-right: 55px;
+    margin-top: 168px;
+}
+
+.main-container2 .square-all {
+    margin-bottom: 70px;
+    width: 457px;
+    height: 299px;
+    background: #C4C4C4;
+}
+
+.aside-layout2 {
+    display: flex;
+    flex-direction: column;
+    width: 169px;
+    height: 1925px;
+    justify-content: space-between;
+    background: #EBEF18;
+    margin-bottom: 100px;
+}
+
+.square-color {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.square-black1 {
+    width: 80px;
+    height: 80px;
+    margin-top: 119px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+.square-black2 {
+    width: 80px;
+    height: 80px;
+    margin-top: 289px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+.square-white {
+    width: 80px;
+    height: 80px;
+    margin-top: 48px;
+    align-self: flex-end;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #000000;
+}
+
+.my-name {
+    display: flex;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.my-name a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+}
+
+.footer-layout2 {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    height: 41px;
+    background: #000000;
+}
+
+
+
+/************LAYOUT NO. 3*************/
+
+.header-layout3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 123px;
+    background: #F2E9E9;
+}
+
+#sq-layout3 {
+    display: flex;
+    margin-top: 21px;
+    margin-right: 24px;
+    margin-bottom: 22px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    cursor: pointer;
+
+}
+
+.main-container3 {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.another-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-layout3 {
+    width: 372px;
+    min-height: 995px;
+    background: #E5E5E5;
+    padding-top: 123px;
+}
+
+.a-tag-l3:hover {
+    color: aqua;
+}
+
+.aside-layout3 {
+    width: 104px;
+    min-height: 995px;
+    background: rgba(24, 71, 239, 0.3);
+}
+
+.yellow-rectangle {
+    width: 100%;
+    height: 463px;
+    background: #EBEF18;
+}
+
+#game-board {
+    width: 964px;
+    min-height: 995px;
+    display: flex;
+    align-content: flex-start;
+   
+    flex-wrap: wrap;
+    padding-top: 123px;
+}
+
+.card {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+    font-family: 'Amiko';
+    cursor: pointer;
+    margin-left: 131px;
+    margin-bottom: 170px;
+}
+
+.clicked {
+    background-color: #EBEF18;
+    color: #000;
+}
+
+.matched {
+    background-color: #cdcdcd;
+    color: #000;
+}
+
+
+@media screen and (max-width: 850px) {
+    .aside-layout3 {
+        display: none;
+    }
+
+    .nav-layout3 {
+        width: 100%;
+        min-height: 105px;
+    }
+
+    .another-section {
+        flex-direction: column;
+    }
+
+    .header-nav-layout1 {
+        justify-content: center;
+    }
+
+    #game-board {
+        padding-right: 5px;
+    }
+
+    .red-circel-l3 {
+        margin-left: 48px;
+    }
+}
